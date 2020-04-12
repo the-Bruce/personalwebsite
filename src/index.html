@@ -2,18 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thomas Bruce</title>
 
     <link href="/site.css" type="text/css" rel="stylesheet">
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.0/dist/js/uikit-icons.min.js"></script>
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.js"
+            crossorigin="anonymous"></script>
 </head>
 <body>
-<nav>
-    <img src="/logo.png" alt="Thomas Bruce Site Logo">
-</nav>
-<h1>Thomas Bruce</h1>
-<p>This site is under construction. Please come back later.</p>
+<div id="main" class="flex-container flex-dir-column">
+    <nav class="top-bar" id="top-nav">
+        <div class="top-bar-left">
+            <ul class="menu drilldown align-center-middle">
+                <li class="menu-text padding-0 padding-right-3"><a class="padding-0" href="/"><img width="60" src="/logo.png" alt="Thomas Bruce Site Logo"></a></li>
+                <li class="active"><a href="#">Two</a></li>
+                <li><a href="#">Three</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="page-content align-self-middle flex-child-grow padding-2">
+        <h1>Thomas Bruce</h1>
+        <p>This site is under construction. Please come back later.</p>
+    </div>
+</div>
 </body>
 </html>
